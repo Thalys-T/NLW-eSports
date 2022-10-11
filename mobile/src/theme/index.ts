@@ -10,6 +10,7 @@ export const THEME = {
     CAPTION_300: '#D4D4D8',
 
     SHAPE: '#2A2634',
+   
 
     PRIMARY: '#8B5CF6',
     SUCCESS: '#34D399',
