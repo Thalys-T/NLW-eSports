@@ -1,99 +1,96 @@
-# NLW eSports
+<p align="center">
+  <img alt="" src=".github/capa.png" width="100%">
+</p>
 
-A platform to connect players who are looking for a "duo" to play together, the player create a "ad" categorized by the game showing some info about the player including discord user 
-and the game to find a duo then when someone find the ad and choose to "conect" your discord is shown to the person;
+<p align="center">
+  <a href="#-tech">Tech</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#license">License</a>
+</p>
 
-Initially the idea was to use twitch's api to bring the games, but because of the problem involving token requisition to consume the api i manualy registered
-some games to test the project.
+# NLW - eSports
 
-![Screenshot_5](https://user-images.githubusercontent.com/107051909/195130605-4d72878f-980f-408a-ad0a-5ae9edb5d15e.png)
+<br>
 
-## Getting Started - Back_End
+The evolved version of the **Esports** project on the [Next Level Week](https://lp.rocketseat.com.br/nlw) by Rocketseat.
 
-starting with back-end, preparing the database using prisma to manage with TypeScript;
+The web client is deployed on Vercel here:
 
-![image](https://user-images.githubusercontent.com/107051909/195136839-260071d7-9ed7-45d4-8295-e786e8b9cfa3.png)
-![image](https://user-images.githubusercontent.com/107051909/195137405-12fafbee-942d-4b02-b819-d603879822e3.png)
+ https://nlw-esports-ignite.vercel.app/
 
-and then for some requisitions whith [Hoppscotch](https://hoppscotch.io) to create, consult and change to fill the database
-with some informations.
+The server is deployed on Fly here: 
 
-![Screenshot_6](https://user-images.githubusercontent.com/107051909/195132281-6149dcc3-da06-4dea-ad3b-9a5e962d0c38.png)
+https://nlw-esports.fly.dev/games
 
-Say what the step will be
+<hr>
 
-    Give the example
-Say what the step will be
+<br>
 
-    Give the example
-Say what the step will be
+  - [Description](#description)
+  - [Stack and tools](#stack-and-tools)
+  - [Quickstart](#quickstart)
 
-    Give the example
-Say what the step will be
+<br>
 
-    Give the example
-And repeat
+## Description
 
-    until finished
+The project is called *Find your Duo*.
+It is a platform to find the perfect partner to play your favorite game together, by connecting your Twitch.tv account.
 
-End with an example of getting some data out of the system or using it
-for a little demo
+<p align="center">
 
-## Running the tests
 
-Explain how to run the automated tests for this system
+## 🎨 Layout:
 
-### Sample Tests
+Figma: https://www.figma.com/file/fMH9LY1h1ngivGZBuq7zm5/NLW-eSports-(Community)?node-id=6%3A131
 
-Explain what these tests test and why
+## 🚀 Tech
 
-    Give an example
+### Front-end
+- HTML
+- CSS
+- JavaScript
+- TypeScript
+- ReactJS
+- TailwindCSS
+- Radix UI
 
-### Style test
+### Back-end
+- NodeJS
+- Express
+- Prisma
+- SQLite
 
-Checks if the best practices and the right coding style has been used.
+### Mobile
+- React Native
+- Expo
 
-    Give an example
 
-## Deployment
+## Quickstart
 
-Add additional notes to deploy this on a live system
+### Server
 
-## Built With
+First, create a new ``.env`` file on the root directory, using the `.env.example` template as base.
 
-  - [Contributor Covenant](https://www.contributor-covenant.org/) - Used
-    for the Code of Conduct
-  - [Creative Commons](https://creativecommons.org/) - Used to choose
-    the license
+Then, to create the local db run:
+```sh
+$ npm install
+$ npm run db:migrate
+```
 
-## Contributing
+After that, to start the server, run:
+```sh
+$ npm run dev
+```
 
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code
-of conduct, and the process for submitting pull requests to us.
+### Web
 
-## Versioning
+To run the local Vite web client:
+```sh
+$ npm install
+$ npm run dev
+```
 
-We use [Semantic Versioning](http://semver.org/) for versioning. For the versions
-available, see the [tags on this
-repository](https://github.com/PurpleBooth/a-good-readme-template/tags).
+<h2 id="license"> 📝 License </h2>
 
-## Authors
-
-  - **Billie Thompson** - *Provided README Template* -
-    [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of
-[contributors](https://github.com/PurpleBooth/a-good-readme-template/contributors)
-who participated in this project.
-
-## License
-
-This project is licensed under the [CC0 1.0 Universal](LICENSE.md)
-Creative Commons License - see the [LICENSE.md](LICENSE.md) file for
-details
-
-## Acknowledgments
-
-  - Hat tip to anyone whose code is used
-  - Inspiration
-  - etc
+This project is under the MIT license.
